@@ -1,0 +1,69 @@
+.order-container {
+    padding: 20px;
+}
+
+.order-rows {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    gap: 20px; /* Space between rows */
+}
+
+.order-card {
+    background: #f8f9fa; /* Light background color */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%; /* Full width of the container */
+    transition: transform 0.2s; /* Animation on hover */
+}
+
+.order-card:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-status {
+    font-weight: bold;
+    color: green; /* Change color based on order status */
+}
+
+.order-details {
+    margin-top: 10px;
+}
+
+.order-products {
+    margin-top: 10px;
+}
+
+.order-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end; /* Align the button to the right */
+}
+
+.confirm-button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.confirm-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+.pp{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}

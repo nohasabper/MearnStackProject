@@ -1,0 +1,39 @@
+
+body {
+    direction: rtl;
+    background-color: #f8f9fa;
+    }
+    .total-line-through {
+    text-decoration: line-through;
+    color: grey;
+    }
+    .total-font-bold {
+    font-weight: bold;
+    }
+    .form-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    }
+    .form-control, .btn-primary, .btn-secondary {
+    border-radius: 8px;
+    }
+    .btn-primary {
+    background-color: #6c63ff;
+    border: none;
+    }
+    .btn-primary:hover {
+    background-color: #5b53e6;
+    }
+    .btn-secondary {
+    background-color: #ccc;
+    border: none;
+    }
+    .btn-secondary:hover {
+    background-color: #bbb;
+    }
+    .bottom-space {
+    margin-bottom: 15px;
+    }
+    

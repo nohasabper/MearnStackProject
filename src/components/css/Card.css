@@ -1,0 +1,52 @@
+.shoe-image {
+    position: relative;
+    height: 70%;
+}
+
+.discount-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a64ac9;
+    color: white;
+    padding: 5px 10px;
+    z-index: 1;
+}
+.heart{
+    position: absolute;
+    right: 0;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    font-size: 30px;
+}
+
+.deleted-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.current-price {
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-full-width {
+    width: 100%;
+    background-color: #a64ac9;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+.textcard{
+    display: flex;
+    justify-content: space-evenly;
+}
+.shoecard{
+    height: 100% !important;
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}

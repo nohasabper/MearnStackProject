@@ -1,0 +1,47 @@
+.sales-container {
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+}
+
+.summary {
+    background-color: #eef;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sales-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.sale-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.sale-card .card-header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.sale-card .card-body {
+    padding: 15px;
+}
+
+.pp {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.head{
+    font-family: 'Cairo',sans-serif;
+    font-size: 24px;
+    text-align: center;
+}

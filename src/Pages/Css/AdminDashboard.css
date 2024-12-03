@@ -1,0 +1,99 @@
+/* src/Css/AdminDashboard.css */
+
+.admin-dashboard {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.admin-dashboard .sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+}
+
+.admin-dashboard .sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.admin-dashboard .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-dashboard .sidebar nav ul li {
+    margin: 20px 0;
+}
+
+.admin-dashboard .sidebar nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.admin-dashboard .sidebar nav ul li a.active {
+    font-weight: bold;
+    border-left: 4px solid #2980b9;
+    padding-left: 10px;
+}
+
+.admin-dashboard .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    overflow-y: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+.admin-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    width: 30px;
+}
+
+.action-buttons button {
+    margin: 0 5px;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+}
+th{
+    background-color: #9b66aa;
+}

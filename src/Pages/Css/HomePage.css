@@ -1,0 +1,149 @@
+.home-page {
+  margin-top: 20px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.row {
+  position: relative;
+}
+
+/* Image Container */
+.image-container {
+  position: relative;
+}
+
+.animated-image-left,
+.animated-image-right {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Centered Box */
+.centered-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 10;
+  width: 50% !important;
+}
+
+.centered-box p {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.Links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn-custom {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.buttons .btn-custom:hover {
+  background-color: #9c27b0;
+  /* Slightly lighter shade on hover */
+  transform: scale(1.05);
+  cursor: pointer;
+  color: white;
+}
+
+.circle-image {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+h5 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 13px;
+}
+
+.circle-image img {
+  width: 100%;
+}
+
+.More {
+  color: black; /* Change font color to black */
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 2px;
+  /* Remove background color and border */
+  background-color: transparent; /* No background */
+  border: none; /* No border */
+  border-radius: 0; /* No border radius */
+  display: inline-flex; /* Align text and icon nicely */
+  align-items: center; /* Center text vertically */
+}
+
+/* Optional: You can add hover effects if desired */
+.More:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.highlight {
+  font-size: 30px;
+  color: #6a1b9a;
+  margin: 0 10px;
+  font-weight: 700;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.more-btn {
+  background-color: white;
+  border: none;
+  color: blueviolet;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.more-btn:hover{
+  background-color:#9c27b0;
+  color: white;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .centered-box {
+    padding: 10px;
+    width: 90% !important;
+  }
+
+  .buttons {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttons .btn-custom {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+}

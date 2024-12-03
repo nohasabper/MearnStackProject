@@ -1,0 +1,36 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+.form-select{
+    border: none;
+    border-bottom: 2px solid;
+    background-color: inherit;
+    border-radius: 0;
+    width: 50%;
+}
+.product-card .original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.product-card .discounted-price {
+    color: #e74c3c;
+    font-size: 18px;
+    font-weight: bold;
+}
